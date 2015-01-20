@@ -1,0 +1,9 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+# Language: JavaScript
+BasedOnStyle: LLVM
+IndentWidth: 4
+# Use 100 columns for JS.
+ColumnLimit: 100
+
+## TODO:
+# For now, we can't really use ASI with clang-format
