@@ -1,0 +1,31 @@
+{
+  "name": "nodegit-archive",
+  "version": "0.0.1",
+  "description": "Support for git archive streaming using nodegit",
+  "main": "./lib/nodegit-archive",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filcab/nodegit-archive.git"
+  },
+  "keywords": [
+    "git",
+    "archive",
+    "git-archive",
+    "nodegit",
+    "stream"
+  ],
+  "author": "filcab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filcab/nodegit-archive/issues"
+  },
+  "homepage": "https://github.com/filcab/nodegit-archive",
+  "dependencies": {
+    "archiver": "^0.13.1",
+    "fs": "0.0.2",
+    "nodegit": "^0.2.4"
+  }
+}
