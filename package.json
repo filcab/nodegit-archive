@@ -25,6 +25,7 @@
   "homepage": "https://github.com/filcab/nodegit-archive",
   "dependencies": {
     "archiver": "^0.13.1",
+    "async": "^0.9.0",
     "fs": "0.0.2",
     "nodegit": "^0.2.4"
   }
